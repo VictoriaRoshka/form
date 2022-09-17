@@ -11,29 +11,73 @@
 
     </head>
     <body>
-        <div class="main-container">
-            <div>
-                <img class="image" src="Formimages\mountains-1.jpg" alt=""/>
+        <div class="container">
+            <div class="image-container">
+                <img  class="image-container__image" src="Formimages\mountains-1.jpg" alt=""/>
             </div>
             <div class="form">
-                <div class="form-personal">
-                    <h1 class="form-personal__title">Регистрация</h1>
-                    <form class="form-personal__form">
-                        <label>Имя
-                            <input type="text"/>
-                        </label>
-                        <label>Фамилия
-                            <input type="text"/>
-                        </label>
-                        <label>E-mail
-                            <input type="text"/>
-                        </label>
-                        <label>Телефон
-                            <input type="tel"/>
-                        </label>
-                    </form>
+                <form>
+                <div><h1 class="registration-title">Регистрация</h1></div>
+                <div class="row">
+                    <div class="item">
+                        <div class="label">Имя</div>
+                        <div><input/></div>
+                    </div>
+                    <div class="item">
+                        <div class="label">Фамилия</div>
+                        <div><input/></div>
+                    </div>
+                    <div class="item">
+                        <div class="label">E-mail</div>
+                        <div><input/></div>
+                    </div>
+                    <div class="item">
+                        <div class="label">Телефон</div>
+                        <div><input/></div>
+                    </div>
                 </div>
+                <div><h2 class="adress-title">Адрес доставки</h2></div>
+                <div class="row row-adress">
+                    <div class="item item-destination">
+                        <div class="label">Страна</div>
+                        <div><input class="input-destination"/></div>
+                    </div>
+                    <div class="item item-destination">
+                        <div class="label">Город</div>
+                        <div><input class="input-destination"/></div>
+                    </div>
+                    <div class="item item-destination">
+                        <div class="label">Почтовый индекс</div>
+                        <div><input class="input-destination"/></div>
+                    </div>
+                    <div class="item item-adress">
+                        <div class="label">Адрес доставки (улица, дом, квартира)</div>
+                        <div><input class="input-adress"/></div>
+                    </div>
+                </div>
+                <div>
+                    <div><h2 class="notification-title">Уведомлять об акциях и скидках</h2></div>
+                    <div><p class="text">Мы не будем отправлять спам, но напишем, когда поступят новые товары или будет большая распродажа.</p></div>
+                    <div class="check-container">
+                        <div class="check">
+                            <input class="checkbox"  type="checkbox"/>
+                            <div class="check__text">По e-mail</div>
+                        </div>
+                        <div class="check">
+                            <input class="checkbox" type="checkbox"/>
+                            <div class="check__text">По SMS</div>
+                        </div>
+                        <div class="check">
+                            <input class="checkbox"  type="checkbox"/>
+                            <div class="check__text">Push-уведомления в приложении</div>
+                        </div>
+                    </div>
                     
+                </div>
+                    <button class="button-create">Создать аккаунт</button>
+
+                </form>
+                
             </div>
         </div>
 
