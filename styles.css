@@ -54,6 +54,19 @@ body{
     margin: 0 calc(var(---offset)/2);
     width: calc(100% / 2 - var(---offset));
 }
+.radio{
+    display: flex;
+    justify-content: space-around;
+}
+.item-radio{
+    display:flex;
+    align-items: center;
+
+}
+.gender{
+    margin-top:10px;
+
+}
 .registration-title{
     font-size: 25px;
     color:#0ea5e9;
