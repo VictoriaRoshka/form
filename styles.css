@@ -57,15 +57,18 @@ body{
 .radio{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .item-radio{
     display:flex;
+    flex-direction: row-reverse;
     align-items: center;
+    width: 100%;
 
 }
 .gender{
-    margin-top:10px;
-
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .registration-title{
     font-size: 25px;
