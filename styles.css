@@ -70,9 +70,12 @@ body{
     margin-left: 10px;
     margin-top: 10px;
 }
+#gender{
+    outline: none;
+}
 .form-container__title{
     font-size: 25px;
-    color:#0ea5e9;
+    color: #3383a8;
     font-weight: 600;
     margin: 50px 0px 20px 0px;
 }
@@ -89,6 +92,12 @@ input{
     border:1px solid var(--primary-color2);
     border-radius: 5px;
     box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input:focus{
+    outline: 2px solid #3383a8;
 }
 
 .item-destination{
@@ -138,6 +147,9 @@ input{
 .checkbox__item{
     width: 20px;
 }
+.checkbox__item:focus{
+    outline: none;
+}
 .checkbox__text{
     margin: 10px;
     padding: 10px;
@@ -154,5 +166,10 @@ input{
     border:none;
     color: var(--primary-color3);
     font-weight: 600;
+}
+.button-create:hover{
+    background-color: #3383a8;
+    cursor: pointer;
+    transition: all 500ms;
 }
 
