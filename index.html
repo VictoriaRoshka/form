@@ -16,7 +16,7 @@
                 <img  class="image-container__image" src="Formimages\mountains-1.jpg" alt=""/>
             </div>
             <div class="form-container">
-                <form>
+                <form action="https://www.bit-by-bit.ru/form-submit">
                 <div><h1 class="form-container__title">Регистрация</h1></div>
                 <div class="form-container__row">
                     <div class="form-container__item">
@@ -39,11 +39,11 @@
                         <label class="label">Ваш пол</label>
                         <div class="radio">
                             <div class="item-radio">
-                                <label for="gender" class="gender">Женщина</label>
+                                <label for="gender" class="gender">Женский</label>
                                 <div><input id="gender" type="radio" name="gender" value="female"/></div>
                             </div>
                             <div class="item-radio">
-                                <label  for="gender" class="gender">Мужчина</label>
+                                <label  for="gender" class="gender">Мужской</label>
                                 <div><input id="gender" type="radio" name="gender" value="male"/></div>
                             </div>
                         </div>
@@ -59,19 +59,41 @@
                 <div class="form-container__row row-adress">
                     <div class="form-container__item item-destination">
                         <label for="country" class="label">Страна</label>
-                        <div><input id="country" class="input-destination"/></div>
+                        <div>
+                        <select id="country" name="country" class="input">
+                            <option></option>
+                            <option>Австрия</option>
+                            <option>Болгария</option>
+                            <option>Бельгия</option>
+                            <option>Великобритания</option>
+                            <option>Германия</option>
+                            <option>Дания</option>
+                            <option>Китай</option>
+                            <option>Мексика</option>
+                            <option>Нидерланды</option>
+                            <option>Португалия</option>
+                            <option>Россия</option>
+                            <option>США</option>
+                            <option>Канада</option>
+                            <option>Финляндия</option>
+                            <option>Швеция</option>
+                            <option>Швейцария</option>
+                            <option>Хорватия</option>
+
+                        </select>
+                        </div>
                     </div>
                     <div class="form-container__item item-destination">
                         <label for="city" class="label">Город</label>
-                        <div><input id="city" type="text" class="input-destination"/></div>
+                        <div><input id="city" type="text" name="city" class="input-destination"/></div>
                     </div>
                     <div class="form-container__item item-destination">
                         <label for="index" class="label">Почтовый индекс</label>
-                        <div><input id="index" type="text" class="input-destination"/></div>
+                        <div><input id="index" type="text" name="index" class="input-destination"/></div>
                     </div>
                     <div class="form-container__item item-adress">
                         <label for="adress" class="label">Адрес доставки (улица, дом, квартира)</label>
-                        <div><input id="adress" type="text" class="input-adress"/></div>
+                        <div><input id="adress" type="text"  name="adress" class="input-adress"/></div>
                     </div>
                 </div>
                 <div>
@@ -93,7 +115,7 @@
                     </div>
                     
                 </div>
-                    <button class="button-create">Создать аккаунт</button>
+                    <button class="button-create" type="submit">Создать аккаунт</button>
 
                 </form>
                 

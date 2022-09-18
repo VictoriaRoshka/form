@@ -96,6 +96,19 @@ input{
     font-family: 'Times New Roman', Times, serif;
 
 }
+.input{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border:1px solid var(--primary-color2);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input:focus{
+    outline: 2px solid #3383a8;
+}
 input:focus{
     outline: 2px solid #3383a8;
 }
@@ -142,17 +155,18 @@ input:focus{
 .checkbox{
     display:flex;
     align-items: center;
+    justify-content:first baseline;
 
 }
 .checkbox__item{
-    width: 20px;
+    width: 15px;
+    align-items: center;
 }
 .checkbox__item:focus{
     outline: none;
 }
 .checkbox__text{
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 0px 0px 10px;
     font-size: 16px;
     font-weight: 600;
 }
