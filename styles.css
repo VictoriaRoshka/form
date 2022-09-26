@@ -106,10 +106,8 @@ input{
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .input:focus{
-    outline: 2px solid #3383a8;
-}
-input:focus{
     outline: 2px solid #3383a8;
 }
 
@@ -159,11 +157,23 @@ input:focus{
 
 }
 .checkbox__item{
-    width: 15px;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #737373;
+    border-radius: 3px;
     align-items: center;
+    cursor: pointer;
 }
-.checkbox__item:focus{
-    outline: none;
+.checkbox__item:hover{
+    outline: 2px solid #3383a8;
+}
+.checkbox__item:checked{
+    background-color: #3383a8;
+    background-image: url(Formimages/check-icon.png);
+    background-size: contain;
+    background-position: center;
+    
 }
 .checkbox__text{
     margin: 10px 0px 0px 10px;
