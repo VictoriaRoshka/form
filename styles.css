@@ -169,6 +169,7 @@ input{
     outline: 2px solid #3383a8;
 }
 .checkbox__item:checked{
+    
     background-color: #3383a8;
     background-image: url(Formimages/check-icon.png);
     background-size: contain;
